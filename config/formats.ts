@@ -23,16 +23,16 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "PokeMMO Formats",
 	},
 	{
-		name: "[Gen 9] OU",
-		mod: 'gen9',
-		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod', '!! Adjust Level = 50'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Shadow Tag'],
-	},
-	{
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard'],
-		banlist: ['AG', 'Moody'],
+		banlist: ['AG', 'Moody', 'Shaymin-Sky', 'Jirachi + Follow Me'],
+	},
+	{
+		name: "[Gen 9] OU",
+		mod: 'gen9',
+		ruleset: ['[Gen 9] Ubers', '!! Adjust Level = 50'],
+		banlist: ['Uber', 'Dugtrio + Arena Trap', 'Gallade + Sharpness', 'Garchomp + Swords Dance', 'Hydreigon + Draco Meteor', 'Reinforced Boots'],
 	},
 	{
 		name: "[Gen 9] UU",
