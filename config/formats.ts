@@ -25,7 +25,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] OU",
 		mod: 'gen9',
-		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod', '!! Adjust Level = 50'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Shadow Tag'],
 	},
 	{
@@ -43,8 +43,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] NU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] RU'],
-		banlist: ['OU', 'UU'],
+		ruleset: ['[Gen 9] UU'],
+		banlist: ['UU'],
 	},
 	{
 		name: "[Gen 9] LC",
