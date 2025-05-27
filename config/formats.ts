@@ -26,13 +26,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard'],
-		banlist: ['AG', 'Moody', 'Shaymin-Sky', 'Jirachi + Follow Me'],
+		banlist: ['AG', 'Moody'],
 	},
 	{
 		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] Ubers', 'Adjust Level = 50'],
-		banlist: ['Uber', 'Dugtrio + Arena Trap', 'Gallade + Sharpness', 'Garchomp + Swords Dance', 'Hydreigon + Draco Meteor'],
+		banlist: ['Uber', 'Dugtrio + Arena Trap', 'Gallade + Sharpness', 'Garchomp + Swords Dance', 'Hydreigon + Draco Meteor', 'Shaymin-Sky', 'Jirachi + Follow Me'],
 	},
 	{
 		name: "[Gen 9] UU",
