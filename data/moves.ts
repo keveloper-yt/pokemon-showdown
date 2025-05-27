@@ -20,8 +20,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	absorb: {
 		num: 71,
-		accuracy: 30,
-		basePower: 150,
+		accuracy: 100,
+		basePower: 20,
 		category: "Special",
 		name: "Absorb",
 		pp: 25,
@@ -10337,7 +10337,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	knockoff: {
 		num: 282,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 20,
 		category: "Physical",
 		name: "Knock Off",
 		pp: 20,
@@ -13548,7 +13548,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	outrage: {
 		num: 200,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 90,
 		category: "Physical",
 		name: "Outrage",
 		pp: 10,

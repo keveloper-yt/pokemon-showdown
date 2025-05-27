@@ -313,7 +313,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 3,
 	},
 	assaultvest: {
-		name: "Assault Vest",
+		name: "Assault Gear",
 		spritenum: 581,
 		fling: {
 			basePower: 80,
@@ -1145,7 +1145,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "Past",
 	},
 	covertcloak: {
-		name: "Covert Cloak",
+		name: "Covert Mantle",
 		spritenum: 750,
 		fling: {
 			basePower: 30,
@@ -7139,7 +7139,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "Past",
 	},
 	weaknesspolicy: {
-		name: "Weakness Policy",
+		name: "Type Policy",
 		spritenum: 609,
 		fling: {
 			basePower: 80,
