@@ -31,7 +31,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] OU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] Ubers', '!! Adjust Level = 50'],
+		ruleset: ['[Gen 9] Ubers', 'Adjust Level = 50'],
 		banlist: ['Uber', 'Dugtrio + Arena Trap', 'Gallade + Sharpness', 'Garchomp + Swords Dance', 'Hydreigon + Draco Meteor'],
 	},
 	{
