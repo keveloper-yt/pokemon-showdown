@@ -1112,7 +1112,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		shortDesc: "This Pokemon's attacks that are super effective against the target do 1.25x damage.",
 	},
 	neutralizinggas: {
-		name: "Reactive Gas",
+		name: "Neutralizing Gas",
 		desc: "While this Pokemon is active, Abilities have no effect. This Ability activates before hazards and other Abilities take effect. Does not affect the As One, Battle Bond, Comatose, Disguise, Gulp Missile, Ice Face, Multitype, Neutralizing Gas, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Zen Mode, or Zero to Hero Abilities.",
 		shortDesc: "While this Pokemon is active, Abilities have no effect.",
 		gen8: {
