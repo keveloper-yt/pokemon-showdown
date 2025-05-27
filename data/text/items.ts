@@ -83,7 +83,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "Holder is cured if it is frozen. Single use.",
 	},
 	assaultvest: {
-		name: "Assault Vest",
+		name: "Assault Gear",
 		shortDesc: "Holder's Sp. Def is 1.5x, but it can only select damaging moves.",
 	},
 	audinite: {
@@ -313,7 +313,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "Can be revived into Tirtouga.",
 	},
 	covertcloak: {
-		name: "Covert Cloak",
+		name: "Covert Mantle",
 		desc: "The holder is not affected by the secondary effect of another Pokemon's attack. Attacks with secondary effects that are prevented include those with a chance (even 100%) to paralyze, sleep, freeze, burn, poison, confuse, cause the holder to flinch, cause the holder's stat stages to be lowered, as well as Anchor Shot, Eerie Spell, Fling, Psychic Noise, Salt Cure, Spirit Shackle, Syrup Bomb, and Throat Chop. The effect of Sparkling Aria is prevented if the holder is the only target. Secondary effects added by King's Rock, Razor Fang, and the Poison Touch, Stench, and Toxic Chain Abilities are also prevented against the holder.",
 		shortDesc: "Holder is not affected by the secondary effect of another Pokemon's attack.",
 	},
@@ -2318,7 +2318,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "Holder's Water-type attacks have 1.2x power.",
 	},
 	weaknesspolicy: {
-		name: "Weakness Policy",
+		name: "Type Policy",
 		shortDesc: "If holder is hit super effectively, raises Attack, Sp. Atk by 2 stages. Single use.",
 	},
 	wellspringmask: {
