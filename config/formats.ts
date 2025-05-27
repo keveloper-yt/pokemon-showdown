@@ -19,41 +19,32 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
-	// S/V Singles
-	///////////////////////////////////////////////////////////////////
-
 	{
-		section: "S/V Singles",
+		section: "PokeMMO Formats",
 	},
 	{
 		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Shadow Tag'],
 	},
 	{
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard'],
-		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang'],
+		banlist: ['AG', 'Moody'],
 	},
 	{
 		name: "[Gen 9] UU",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] OU'],
-		banlist: ['OU', 'UUBL'],
-	},
-	{
-		name: "[Gen 9] RU",
-		mod: 'gen9',
-		ruleset: ['[Gen 9] UU'],
-		banlist: ['UU', 'RUBL', 'Light Clay'],
+		banlist: ['OU'],
 	},
 	{
 		name: "[Gen 9] NU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] RU'],
-		banlist: ['RU', 'NUBL', 'Drought', 'Quick Claw'],
+		ruleset: ['[Gen 9] NU'],
+		banlist: ['OU', 'UU'],
 	},
 	{
 		name: "[Gen 9] LC",
@@ -87,7 +78,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		searchShow: false,
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Open Team Sheets'],
+		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'VGC Timer', 'Open Team Sheets'],
 	},
 	{
 		name: "[Gen 9] Doubles Custom Game",
