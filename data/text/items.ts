@@ -789,7 +789,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "A Poke Ball for catching very heavy Pokemon.",
 	},
 	heavydutyboots: {
-		name: "Heavy-Duty Boots",
+		name: "Reinforced Boots",
 		shortDesc: "When switching in, the holder is unaffected by hazards on its side of the field.",
 	},
 	helixfossil: {
@@ -1019,7 +1019,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "Holder cures itself if it has a non-volatile status or is confused. Single use.",
 	},
 	luminousmoss: {
-		name: "Luminous Moss",
+		name: "Glowing Moss",
 		shortDesc: "Raises holder's Sp. Def by 1 stage if hit by a Water-type attack. Single use.",
 	},
 	lunaliumz: {
@@ -1426,7 +1426,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "If holder has a Psychic move, this item allows it to use a Psychic Z-Move.",
 	},
 	punchingglove: {
-		name: "Punching Glove",
+		name: "Punching Gloves",
 		shortDesc: "Holder's punch-based attacks have 1.1x power and do not make contact.",
 	},
 	qualotberry: {
