@@ -1517,7 +1517,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Uber",
 	},
 	shaymin: {
-		tier: "NU",
+		tier: "UU",
 	},
 	shayminsky: {
 		tier: "Uber",
