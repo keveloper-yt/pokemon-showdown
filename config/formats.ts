@@ -43,7 +43,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] NU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] NU'],
+		ruleset: ['[Gen 9] RU'],
 		banlist: ['OU', 'UU'],
 	},
 	{
