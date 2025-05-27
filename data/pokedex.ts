@@ -507,7 +507,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	clefairy: {
 		num: 35,
 		name: "Clefairy",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 70, atk: 45, def: 48, spa: 60, spd: 65, spe: 35 },
 		abilities: { 0: "Cute Charm", 1: "Magic Guard", H: "Friend Guard" },
@@ -522,7 +522,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	clefable: {
 		num: 36,
 		name: "Clefable",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 95, atk: 70, def: 73, spa: 95, spd: 90, spe: 60 },
 		abilities: { 0: "Cute Charm", 1: "Magic Guard", H: "Unaware" },
@@ -569,7 +569,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	jigglypuff: {
 		num: 39,
 		name: "Jigglypuff",
-		types: ["Normal", "Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 115, atk: 45, def: 20, spa: 45, spd: 25, spe: 20 },
 		abilities: { 0: "Cute Charm", 1: "Competitive", H: "Friend Guard" },
@@ -584,7 +584,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	wigglytuff: {
 		num: 40,
 		name: "Wigglytuff",
-		types: ["Normal", "Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 140, atk: 70, def: 45, spa: 85, spd: 50, spe: 45 },
 		abilities: { 0: "Cute Charm", 1: "Competitive", H: "Frisk" },
@@ -1707,7 +1707,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	mrmime: {
 		num: 122,
 		name: "Mr. Mime",
-		types: ["Psychic", "Fairy"],
+		types: ["Psychic"],
 		baseStats: { hp: 40, atk: 45, def: 65, spa: 100, spd: 120, spe: 90 },
 		abilities: { 0: "Soundproof", 1: "Filter", H: "Technician" },
 		heightm: 1.3,
@@ -2423,7 +2423,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	cleffa: {
 		num: 173,
 		name: "Cleffa",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 50, atk: 25, def: 28, spa: 45, spd: 55, spe: 15 },
 		abilities: { 0: "Cute Charm", 1: "Magic Guard", H: "Friend Guard" },
@@ -2437,7 +2437,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	igglybuff: {
 		num: 174,
 		name: "Igglybuff",
-		types: ["Normal", "Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 90, atk: 30, def: 15, spa: 40, spd: 20, spe: 15 },
 		abilities: { 0: "Cute Charm", 1: "Competitive", H: "Friend Guard" },
@@ -2451,7 +2451,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	togepi: {
 		num: 175,
 		name: "Togepi",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 35, atk: 20, def: 65, spa: 40, spd: 65, spe: 20 },
 		abilities: { 0: "Hustle", 1: "Serene Grace", H: "Super Luck" },
@@ -2465,7 +2465,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	togetic: {
 		num: 176,
 		name: "Togetic",
-		types: ["Fairy", "Flying"],
+		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 55, atk: 40, def: 85, spa: 80, spd: 105, spe: 40 },
 		abilities: { 0: "Hustle", 1: "Serene Grace", H: "Super Luck" },
@@ -2560,7 +2560,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	marill: {
 		num: 183,
 		name: "Marill",
-		types: ["Water", "Fairy"],
+		types: ["Water"],
 		baseStats: { hp: 70, atk: 20, def: 50, spa: 20, spd: 50, spe: 40 },
 		abilities: { 0: "Thick Fat", 1: "Huge Power", H: "Sap Sipper" },
 		heightm: 0.4,
@@ -2575,7 +2575,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	azumarill: {
 		num: 184,
 		name: "Azumarill",
-		types: ["Water", "Fairy"],
+		types: ["Water"],
 		baseStats: { hp: 100, atk: 50, def: 80, spa: 60, spd: 80, spe: 50 },
 		abilities: { 0: "Thick Fat", 1: "Huge Power", H: "Sap Sipper" },
 		heightm: 0.8,
@@ -2909,7 +2909,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	snubbull: {
 		num: 209,
 		name: "Snubbull",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 60, atk: 80, def: 50, spa: 40, spd: 40, spe: 30 },
 		abilities: { 0: "Intimidate", 1: "Run Away", H: "Rattled" },
@@ -2922,7 +2922,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	granbull: {
 		num: 210,
 		name: "Granbull",
-		types: ["Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 90, atk: 120, def: 75, spa: 60, spd: 60, spe: 45 },
 		abilities: { 0: "Intimidate", 1: "Quick Feet", H: "Rattled" },
@@ -3859,7 +3859,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	ralts: {
 		num: 280,
 		name: "Ralts",
-		types: ["Psychic", "Fairy"],
+		types: ["Psychic"],
 		baseStats: { hp: 28, atk: 25, def: 25, spa: 45, spd: 35, spe: 40 },
 		abilities: { 0: "Synchronize", 1: "Trace", H: "Telepathy" },
 		heightm: 0.4,
@@ -3871,7 +3871,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	kirlia: {
 		num: 281,
 		name: "Kirlia",
-		types: ["Psychic", "Fairy"],
+		types: ["Psychic"],
 		baseStats: { hp: 38, atk: 35, def: 35, spa: 65, spd: 55, spe: 50 },
 		abilities: { 0: "Synchronize", 1: "Trace", H: "Telepathy" },
 		heightm: 0.8,
@@ -3885,7 +3885,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	gardevoir: {
 		num: 282,
 		name: "Gardevoir",
-		types: ["Psychic", "Fairy"],
+		types: ["Psychic"],
 		baseStats: { hp: 68, atk: 65, def: 65, spa: 125, spd: 115, spe: 80 },
 		abilities: { 0: "Synchronize", 1: "Trace", H: "Telepathy" },
 		heightm: 1.6,
@@ -3896,20 +3896,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like", "Amorphous"],
 		otherFormes: ["Gardevoir-Mega"],
 		formeOrder: ["Gardevoir", "Gardevoir-Mega"],
-	},
-	gardevoirmega: {
-		num: 282,
-		name: "Gardevoir-Mega",
-		baseSpecies: "Gardevoir",
-		forme: "Mega",
-		types: ["Psychic", "Fairy"],
-		baseStats: { hp: 68, atk: 85, def: 65, spa: 165, spd: 135, spe: 100 },
-		abilities: { 0: "Pixilate" },
-		heightm: 1.6,
-		weightkg: 48.4,
-		color: "White",
-		eggGroups: ["Amorphous"],
-		requiredItem: "Gardevoirite",
 	},
 	surskit: {
 		num: 283,
@@ -4109,7 +4095,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	azurill: {
 		num: 298,
 		name: "Azurill",
-		types: ["Normal", "Fairy"],
+		types: ["Normal"],
 		genderRatio: { M: 0.25, F: 0.75 },
 		baseStats: { hp: 50, atk: 20, def: 40, spa: 20, spd: 40, spe: 20 },
 		abilities: { 0: "Thick Fat", 1: "Huge Power", H: "Sap Sipper" },
@@ -6118,7 +6104,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	mimejr: {
 		num: 439,
 		name: "Mime Jr.",
-		types: ["Psychic", "Fairy"],
+		types: ["Psychic"],
 		baseStats: { hp: 20, atk: 25, def: 45, spa: 70, spd: 90, spe: 60 },
 		abilities: { 0: "Soundproof", 1: "Filter", H: "Technician" },
 		heightm: 0.6,
@@ -6506,7 +6492,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	togekiss: {
 		num: 468,
 		name: "Togekiss",
-		types: ["Fairy", "Flying"],
+		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 85, atk: 50, def: 95, spa: 120, spd: 115, spe: 80 },
 		abilities: { 0: "Hustle", 1: "Serene Grace", H: "Super Luck" },
@@ -7046,23 +7032,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		requiredItems: ["Zap Plate", "Electrium Z"],
 		changesFrom: "Arceus",
-	},
-	arceusfairy: {
-		num: 493,
-		name: "Arceus-Fairy",
-		baseSpecies: "Arceus",
-		forme: "Fairy",
-		types: ["Fairy"],
-		gender: "N",
-		baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120 },
-		abilities: { 0: "Multitype" },
-		heightm: 3.2,
-		weightkg: 320,
-		color: "White",
-		eggGroups: ["Undiscovered"],
-		requiredItems: ["Pixie Plate", "Fairium Z"],
-		changesFrom: "Arceus",
-		gen: 6,
 	},
 	arceusfighting: {
 		num: 493,
@@ -7948,7 +7917,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	cottonee: {
 		num: 546,
 		name: "Cottonee",
-		types: ["Grass", "Fairy"],
+		types: ["Grass"],
 		baseStats: { hp: 40, atk: 27, def: 60, spa: 37, spd: 50, spe: 66 },
 		abilities: { 0: "Prankster", 1: "Infiltrator", H: "Chlorophyll" },
 		heightm: 0.3,
@@ -7960,7 +7929,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	whimsicott: {
 		num: 547,
 		name: "Whimsicott",
-		types: ["Grass", "Fairy"],
+		types: ["Grass"],
 		baseStats: { hp: 60, atk: 67, def: 85, spa: 77, spd: 75, spe: 116 },
 		abilities: { 0: "Prankster", 1: "Infiltrator", H: "Chlorophyll" },
 		heightm: 0.7,
