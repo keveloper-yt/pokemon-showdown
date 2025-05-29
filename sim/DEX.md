@@ -32,10 +32,6 @@ const frobnicate = Dex.moves.get('frobnicate');
 console.log(frobnicate.exists); // prints false
 console.log(frobnicate.isNonstandard); // prints 'Custom'
 
-const tomohawk = Dex.species.get('tomohawk');
-console.log(tomohawk.exists); // prints true
-console.log(tomohawk.isNonstandard); // prints 'CAP'
-
 const pikachu = Dex.species.get('pikachu');
 console.log(pikachu.exists); // prints true
 console.log(pikachu.isNonstandard); // prints null
