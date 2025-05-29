@@ -73,7 +73,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] [EQUOS] LC",
 		mod: 'gen9',
 		ruleset: ['Little Cup', 'Standard'],
-		banlist: ['Diglet', 'Meditite', 'Sneasel', 'Gligar', 'Murkrow', 'Yanma', 'Scyther', 'Tangela',
+		banlist: ['Diglett', 'Meditite', 'Sneasel', 'Gligar', 'Murkrow', 'Yanma', 'Scyther', 'Tangela',
 			'Misdreavus', 'Dragon Rage', 'Sonic Boom', 'Drought', 'Bright Powder', 'Focus Band',
 			'King\'s Rock', 'Berry Juice', 'Riolu + Prankster + Copycat + Roar', 'Aipom', 'Drifloon',
 			'Trapinch', 'Porygon'],
