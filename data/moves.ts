@@ -1150,7 +1150,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				source.skipBeforeSwitchOutEventFlag = true;
 			},
 		},
-		selfSwitch: 'copyvolatile',
+		selfSwitch: 'shedtail',
 		secondary: null,
 		target: "self",
 		type: "Normal",

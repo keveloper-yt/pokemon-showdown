@@ -70,7 +70,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Equos Formats",
 	},
 	{
-		name: "[EQUOS] LC",
+		name: "[Gen 9] [EQUOS] LC",
 		mod: 'gen9',
 		ruleset: ['Little Cup', 'Standard'],
 		banlist: [],
