@@ -23,12 +23,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "PokeMMO Formats",
 	},
 	{
-		name: "[Gen 9] Ubers",
-		mod: 'gen9',
-		ruleset: ['Standard'],
-		banlist: ['AG', 'Moody'],
-	},
-	{
 		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] Ubers', 'Adjust Level = 50'],
@@ -52,6 +46,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Evasion Abilities Clause'],
 		banlist: [],
+	},
+	{
+		name: "[Gen 9] Ubers",
+		mod: 'gen9',
+		ruleset: ['Standard'],
+		banlist: ['AG', 'Moody'],
 	},
 	{
 		name: "[Gen 9] Anything Goes",
