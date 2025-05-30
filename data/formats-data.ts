@@ -165,7 +165,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NU",
 	},
 	diglett: {
-		tier: "LC",
+		tier: "NU",
 	},
 	dugtrio: {
 		tier: "NU",
@@ -387,7 +387,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "UU",
 	},
 	tangela: {
-		tier: "LC",
+		tier: "NU",
 	},
 	tangrowth: {
 		tier: "UU",
@@ -666,7 +666,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NU",
 	},
 	yanma: {
-		tier: "LC",
+		tier: "NU",
 	},
 	yanmega: {
 		tier: "UU",
@@ -678,13 +678,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "UU",
 	},
 	murkrow: {
-		tier: "LC",
+		tier: "NU",
 	},
 	honchkrow: {
 		tier: "NU",
 	},
 	misdreavus: {
-		tier: "LC",
+		tier: "NU",
 	},
 	mismagius: {
 		tier: "UU",
