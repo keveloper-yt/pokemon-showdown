@@ -53,12 +53,12 @@ describe('Seeds', () => {
 	it(`should not cause items passed by Symbiosis to be consumed arbitrarily`, () => {
 		battle = common.createBattle({ gameType: 'doubles' }, [[
 			{ species: 'Miraidon', ability: 'hadronengine', item: 'electricseed', moves: ['protect'] },
-			{ species: 'Oranguru', ability: 'symbiosis', item: 'covertcloak', moves: ['protect'] },
+			{ species: 'Oranguru', ability: 'symbiosis', item: 'covertmantle', moves: ['protect'] },
 		], [
 			{ species: 'Alakazam', moves: ['sleeptalk'] },
 			{ species: 'Alakazam', moves: ['sleeptalk'] },
 		]]);
-		assert.equal(battle.p1.active[0].item, 'covertcloak', "Miraidon should hold Covert Cloak");
+		assert.equal(battle.p1.active[0].item, 'covertmantle', "Miraidon should hold Covert Cloak");
 		assert.false.holdsItem(battle.p1.active[1]);
 	});
 });

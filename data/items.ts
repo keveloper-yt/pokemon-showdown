@@ -203,7 +203,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 153,
 		gen: 3,
 	},
-	assaultvest: {
+	assaultgear: {
 		name: "Assault Gear",
 		spritenum: 581,
 		fling: {
@@ -774,7 +774,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 5,
 		isNonstandard: "Past",
 	},
-	covertcloak: {
+	covertmantle: {
 		name: "Covert Mantle",
 		spritenum: 750,
 		fling: {
@@ -1574,7 +1574,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 2,
 		isPokeball: true,
 	},
-	heavydutyboots: {
+	reinforcedboots: {
 		name: "Reinforced Boots",
 		spritenum: 715,
 		fling: {
@@ -2103,7 +2103,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 157,
 		gen: 3,
 	},
-	luminousmoss: {
+	glowingmoss: {
 		name: "Glowing Moss",
 		spritenum: 595,
 		fling: {
@@ -3053,7 +3053,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 557,
 		gen: 5,
 	},
-	punchingglove: {
+	punchinggloves: {
 		name: "Punching Gloves",
 		spritenum: 749,
 		fling: {
@@ -4101,7 +4101,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 4,
 		isNonstandard: "Past",
 	},
-	weaknesspolicy: {
+	typepolicy: {
 		name: "Type Policy",
 		spritenum: 609,
 		fling: {

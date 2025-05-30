@@ -5,7 +5,7 @@ const common = require('./../../common');
 
 let battle;
 
-describe('Weakness Policy', () => {
+describe('Type Policy', () => {
 	afterEach(() => {
 		battle.destroy();
 	});
@@ -16,7 +16,7 @@ describe('Weakness Policy', () => {
 			{ species: "Lucario", ability: 'justified', moves: ['aurasphere'] },
 		] });
 		battle.setPlayer('p2', { team: [
-			{ species: "Blissey", ability: 'naturalcure', item: 'weaknesspolicy', moves: ['softboiled'] },
+			{ species: "Blissey", ability: 'naturalcure', item: 'typepolicy', moves: ['softboiled'] },
 		] });
 		const holder = battle.p2.active[0];
 		battle.makeChoices('move aurasphere', 'move softboiled');
@@ -29,11 +29,11 @@ describe('Weakness Policy', () => {
 		battle = common.createBattle({ gameType: 'doubles' });
 		battle.setPlayer('p1', { team: [
 			{ species: "Stunfisk", ability: 'limber', moves: ['earthquake', 'surf', 'discharge'] },
-			{ species: "Volcarona", ability: 'swarm', item: 'weaknesspolicy', moves: ['roost'] },
+			{ species: "Volcarona", ability: 'swarm', item: 'typepolicy', moves: ['roost'] },
 		] });
 		battle.setPlayer('p2', { team: [
-			{ species: "Zekrom", ability: 'teravolt', item: 'weaknesspolicy', moves: ['roost'] },
-			{ species: "Pyukumuku", ability: 'unaware', item: 'weaknesspolicy', moves: ['recover'] },
+			{ species: "Zekrom", ability: 'teravolt', item: 'typepolicy', moves: ['roost'] },
+			{ species: "Pyukumuku", ability: 'unaware', item: 'typepolicy', moves: ['recover'] },
 		] });
 		const zekrom = battle.p2.active[0];
 		const pyuk = battle.p2.active[1];
@@ -50,7 +50,7 @@ describe('Weakness Policy', () => {
 		assert.statStage(volc, 'atk', 0);
 		assert.statStage(volc, 'spa', 0);
 
-		zekrom.setItem('weaknesspolicy');
+		zekrom.setItem('typepolicy');
 		zekrom.clearBoosts();
 
 		battle.makeChoices('move discharge, move roost', 'auto');
@@ -64,7 +64,7 @@ describe('Weakness Policy', () => {
 		assert.statStage(volc, 'atk', 0);
 		assert.statStage(volc, 'spa', 0);
 
-		pyuk.setItem('weaknesspolicy');
+		pyuk.setItem('typepolicy');
 		pyuk.clearBoosts();
 
 		battle.makeChoices('move surf, move roost', 'auto');
@@ -85,7 +85,7 @@ describe('Weakness Policy', () => {
 			{ species: "Lucario", ability: 'justified', moves: ['seismictoss'] },
 		] });
 		battle.setPlayer('p2', { team: [
-			{ species: "Blissey", ability: 'naturalcure', item: 'weaknesspolicy', moves: ['softboiled'] },
+			{ species: "Blissey", ability: 'naturalcure', item: 'typepolicy', moves: ['softboiled'] },
 		] });
 		const holder = battle.p2.active[0];
 		battle.makeChoices('move seismictoss', 'move softboiled');
@@ -98,7 +98,7 @@ describe('Weakness Policy', () => {
 		battle = common.createBattle([[
 			{ species: 'wynaut', ability: 'compoundeyes', moves: ['dragontail'] },
 		], [
-			{ species: 'zygarde', item: 'weaknesspolicy', moves: ['sleeptalk'] },
+			{ species: 'zygarde', item: 'typepolicy', moves: ['sleeptalk'] },
 			{ species: 'aron', moves: ['sleeptalk'] },
 		]]);
 		const zygarde = battle.p2.active[0];

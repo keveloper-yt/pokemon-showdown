@@ -5,7 +5,7 @@ const common = require('./../../common');
 
 let battle;
 
-describe("Heavy Duty Boots", () => {
+describe("Reinforced Boots", () => {
 	afterEach(() => {
 		battle.destroy();
 	});
@@ -14,7 +14,7 @@ describe("Heavy Duty Boots", () => {
 		battle = common.createBattle();
 		battle.setPlayer('p1', { team: [
 			{ species: 'Magikarp', ability: 'swiftswim', moves: ['splash'] },
-			{ species: 'Magikarp', ability: 'swiftswim', item: 'heavydutyboots', moves: ['splash'] },
+			{ species: 'Magikarp', ability: 'swiftswim', item: 'reinforcedboots', moves: ['splash'] },
 		] });
 		battle.setPlayer('p2', { team: [
 			{ species: 'Cloyster', ability: 'shellarmor', moves: ['spikes', 'toxicspikes'] },

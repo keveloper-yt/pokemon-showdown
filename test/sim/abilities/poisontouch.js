@@ -26,7 +26,7 @@ describe(`Poison Touch`, () => {
 			{ species: 'Wynaut', ability: 'poisontouch', moves: ['falseswipe'] },
 		], [
 			{ species: 'Shuckle', ability: 'prankster', moves: ['substitute'] },
-			{ species: 'Regirock', item: 'covertcloak', moves: ['sleeptalk'] },
+			{ species: 'Regirock', item: 'covertmantle', moves: ['sleeptalk'] },
 		]]);
 		battle.makeChoices();
 		assert.equal(battle.p2.active[0].status, '', `Shuckle should not be poisoned`);

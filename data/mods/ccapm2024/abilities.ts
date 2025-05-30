@@ -388,7 +388,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		},
 		onSourceDamagingHit(damage, target, source, move) {
 			// Despite not being a secondary, Shield Dust / Covert Cloak block Toxic Chain's effect
-			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
+			if (target.hasAbility('shielddust') || target.hasItem('covertmantle')) return;
 
 			if (this.randomChance(3, 10)) {
 				target.trySetStatus('psn', source);
@@ -872,7 +872,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 	searingremark: {
 		onSourceDamagingHit(damage, target, source, move) {
 			if (move.flags['sound'] && this.randomChance(3, 10)) {
-				if (!target.hasAbility('shielddust') && !target.hasItem('covertcloak')) target.trySetStatus('brn', source);
+				if (!target.hasAbility('shielddust') && !target.hasItem('covertmantle')) target.trySetStatus('brn', source);
 			}
 		},
 		flags: {},

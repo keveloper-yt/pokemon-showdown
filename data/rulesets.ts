@@ -911,7 +911,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			];
 			const nonSpeedBoostedItems = [
 				'absorbbulb', 'apicotberry', 'cellbattery', 'eeviumz', 'ganlonberry', 'keeberry', 'kommoniumz', 'liechiberry',
-				'luminousmoss', 'marangaberry', 'petayaberry', 'snowball', 'starfberry', 'weaknesspolicy',
+				'glowingmoss', 'marangaberry', 'petayaberry', 'snowball', 'starfberry', 'typepolicy',
 			];
 			if (nonSpeedBoostedAbilities.includes(ability) || nonSpeedBoostedItems.includes(item.id)) {
 				nonSpeedBoosted = true;

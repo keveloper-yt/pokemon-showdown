@@ -959,7 +959,7 @@ export default class TeamGenerator {
 			case 0: return 10; // neutral
 			}
 			return 5; // not very effective/other
-		case 'assaultvest':
+		case 'assaultgear':
 			if (moves.some(x => x.category === 'Status')) return 0;
 			return 30;
 		case 'scopelens':

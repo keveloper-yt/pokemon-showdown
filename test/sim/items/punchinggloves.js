@@ -5,14 +5,14 @@ const common = require('../../common');
 
 let battle;
 
-describe('Punching Glove', () => {
+describe('Punching Gloves', () => {
 	afterEach(() => {
 		battle.destroy();
 	});
 
 	it(`should prevent item effects triggered by contact from acting`, () => {
 		battle = common.createBattle([[
-			{ species: 'wynaut', item: 'punchingglove', moves: ['bulletpunch'] },
+			{ species: 'wynaut', item: 'punchinggloves', moves: ['bulletpunch'] },
 		], [
 			{ species: 'miltank', item: 'rockyhelmet', moves: ['sleeptalk'] },
 		]]);
@@ -22,7 +22,7 @@ describe('Punching Glove', () => {
 
 	it(`should not prevent item effects triggered by contact from acting if using non-punching contact move`, () => {
 		battle = common.createBattle([[
-			{ species: 'wynaut', item: 'punchingglove', moves: ['tackle'] },
+			{ species: 'wynaut', item: 'punchinggloves', moves: ['tackle'] },
 		], [
 			{ species: 'miltank', item: 'rockyhelmet', moves: ['sleeptalk'] },
 		]]);
@@ -32,7 +32,7 @@ describe('Punching Glove', () => {
 
 	it(`should not activate on the opponent's moves`, () => {
 		battle = common.createBattle([[
-			{ species: 'wynaut', item: 'punchingglove', moves: ['sleeptalk'] },
+			{ species: 'wynaut', item: 'punchinggloves', moves: ['sleeptalk'] },
 		], [
 			{ species: 'happiny', moves: ['lunge'] },
 		]]);
@@ -43,19 +43,19 @@ describe('Punching Glove', () => {
 	// https://www.smogon.com/forums/threads/scarlet-violet-battle-mechanics-research.3709545/post-9406865
 	it(`should stop Pickpocket`, () => {
 		battle = common.createBattle([[
-			{ species: 'wynaut', item: 'punchingglove', moves: ['bulletpunch'] },
+			{ species: 'wynaut', item: 'punchinggloves', moves: ['bulletpunch'] },
 		], [
 			{ species: 'weavile', ability: 'pickpocket', moves: ['sleeptalk'] },
 		]]);
 		battle.makeChoices();
-		assert.equal(battle.p1.active[0].item, 'punchingglove', `Attacker should not lose their item`);
+		assert.equal(battle.p1.active[0].item, 'punchinggloves', `Attacker should not lose their item`);
 		assert.false.holdsItem(battle.p2.active[0], `Target should not steal Punching Glove`);
 	});
 
 	// https://www.smogon.com/forums/threads/scarlet-violet-battle-mechanics-research.3709545/post-9406865
 	it(`should block against Protecting effects with a contact side effect`, () => {
 		battle = common.createBattle([[
-			{ species: 'wynaut', item: 'punchingglove', moves: ['sleeptalk', 'bulletpunch'] },
+			{ species: 'wynaut', item: 'punchinggloves', moves: ['sleeptalk', 'bulletpunch'] },
 		], [
 			{ species: 'aggron', moves: ['sleeptalk', 'banefulbunker', 'obstruct', 'spikyshield'] },
 		]]);

@@ -82,7 +82,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Aspear Berry",
 		shortDesc: "Holder is cured if it is frozen. Single use.",
 	},
-	assaultvest: {
+	assaultgear: {
 		name: "Assault Gear",
 		shortDesc: "Holder's Sp. Def is 1.5x, but it can only select damaging moves.",
 	},
@@ -312,7 +312,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Cover Fossil",
 		shortDesc: "Can be revived into Tirtouga.",
 	},
-	covertcloak: {
+	covertmantle: {
 		name: "Covert Mantle",
 		desc: "The holder is not affected by the secondary effect of another Pokemon's attack. Attacks with secondary effects that are prevented include those with a chance (even 100%) to paralyze, sleep, freeze, burn, poison, confuse, cause the holder to flinch, cause the holder's stat stages to be lowered, as well as Anchor Shot, Eerie Spell, Fling, Psychic Noise, Salt Cure, Spirit Shackle, Syrup Bomb, and Throat Chop. The effect of Sparkling Aria is prevented if the holder is the only target. Secondary effects added by King's Rock, Razor Fang, and the Poison Touch, Stench, and Toxic Chain Abilities are also prevented against the holder.",
 		shortDesc: "Holder is not affected by the secondary effect of another Pokemon's attack.",
@@ -788,7 +788,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Heavy Ball",
 		shortDesc: "A Poke Ball for catching very heavy Pokemon.",
 	},
-	heavydutyboots: {
+	reinforcedboots: {
 		name: "Reinforced Boots",
 		shortDesc: "When switching in, the holder is unaffected by hazards on its side of the field.",
 	},
@@ -1018,7 +1018,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Lum Berry",
 		shortDesc: "Holder cures itself if it has a non-volatile status or is confused. Single use.",
 	},
-	luminousmoss: {
+	glowingmoss: {
 		name: "Glowing Moss",
 		shortDesc: "Raises holder's Sp. Def by 1 stage if hit by a Water-type attack. Single use.",
 	},
@@ -1425,7 +1425,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Psychium Z",
 		shortDesc: "If holder has a Psychic move, this item allows it to use a Psychic Z-Move.",
 	},
-	punchingglove: {
+	punchinggloves: {
 		name: "Punching Gloves",
 		shortDesc: "Holder's punch-based attacks have 1.1x power and do not make contact.",
 	},
@@ -2317,7 +2317,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Wave Incense",
 		shortDesc: "Holder's Water-type attacks have 1.2x power.",
 	},
-	weaknesspolicy: {
+	typepolicy: {
 		name: "Type Policy",
 		shortDesc: "If holder is hit super effectively, raises Attack, Sp. Atk by 2 stages. Single use.",
 	},

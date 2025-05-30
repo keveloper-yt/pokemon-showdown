@@ -271,7 +271,7 @@ export const ssbSets: SSBSets = {
 		evs: { spa: 252, spd: 4, spe: 252 }, nature: 'Timid', teraType: ['Steel', 'Flying', 'Electric', 'Dark'],
 	},
 	Chloe: {
-		species: 'Tsareena', ability: 'Acetosa', item: 'Assault Vest', gender: 'F',
+		species: 'Tsareena', ability: 'Acetosa', item: 'Assault Gear', gender: 'F',
 		moves: ['Rapid Spin', 'Fishious Rend', 'Stone Axe'],
 		signatureMove: 'De Todas las Flores',
 		evs: { atk: 252, spd: 4, spe: 252 }, nature: 'Jolly', teraType: 'Grass', shiny: true,
@@ -1010,7 +1010,7 @@ export const ssbSets: SSBSets = {
 		evs: { hp: 184, atk: 112, def: 36, spd: 88, spe: 88 }, ivs: { spa: 29 }, nature: 'Impish', teraType: ['Dragon', 'Psychic', 'Fighting'], shiny: 20,
 	},
 	Waves: {
-		species: 'Wailord', ability: 'Primordial Sea', item: 'Assault Vest', gender: 'M',
+		species: 'Wailord', ability: 'Primordial Sea', item: 'Assault Gear', gender: 'M',
 		moves: ['Water Spout', 'Hurricane', 'Thunder'],
 		signatureMove: 'Torrential Drain',
 		evs: { spa: 252, spd: 4, spe: 252 }, nature: 'Modest', teraType: 'Water',
